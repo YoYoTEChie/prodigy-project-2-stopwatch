@@ -1,0 +1,53 @@
+<style>
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://pragativadi.com/core/uploads/2022/08/eqw.jpg");
+}
+.stopwatch {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border:3px solid red;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+}
+
+#laps li {
+    margin: 5px 0;
+    padding: 5px 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+</style>
